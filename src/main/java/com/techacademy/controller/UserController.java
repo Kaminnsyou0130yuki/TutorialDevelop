@@ -15,6 +15,7 @@ import com.techacademy.service.UserService;
 public class UserController {
     private final UserService service;
 
+//  @Autowiredが省略されている。
     public UserController(UserService service) {
         this.service = service;
     }
